@@ -1,0 +1,82 @@
+[
+  {
+    "name": "foliage_000_ivy",
+    "source": "sources\\foliage\\Low poly foliege.blend",
+    "object": "ivy"
+  },
+  {
+    "name": "foliage_001_lily",
+    "source": "sources\\foliage\\Low poly foliege.blend",
+    "object": "lily"
+  },
+  {
+    "name": "foliage_002_leaf_mapple",
+    "source": "sources\\foliage\\Low poly foliege.blend",
+    "object": "leaf mapple"
+  },
+  {
+    "name": "foliage_003_leaf_oak",
+    "source": "sources\\foliage\\Low poly foliege.blend",
+    "object": "leaf oak"
+  },
+  {
+    "name": "foliage_004_leaf_ivy",
+    "source": "sources\\foliage\\Low poly foliege.blend",
+    "object": "leaf ivy"
+  },
+  {
+    "name": "foliage_005_leaf_poplar",
+    "source": "sources\\foliage\\Low poly foliege.blend",
+    "object": "leaf poplar"
+  },
+  {
+    "name": "foliage_006_tree_pine_joined",
+    "source": "sources\\foliage\\Low poly foliege.blend",
+    "object": "tree pine joined"
+  },
+  {
+    "name": "foliage_007_tree_oak_joined",
+    "source": "sources\\foliage\\Low poly foliege.blend",
+    "object": "tree oak joined"
+  },
+  {
+    "name": "foliage_008_tree_small_joined",
+    "source": "sources\\foliage\\Low poly foliege.blend",
+    "object": "tree small joined"
+  },
+  {
+    "name": "foliage_009_plane",
+    "source": "sources\\foliage\\Low poly foliege.blend",
+    "object": "Plane"
+  },
+  {
+    "name": "foliage_010_bush_fern_joined",
+    "source": "sources\\foliage\\Low poly foliege.blend",
+    "object": "bush fern joined"
+  },
+  {
+    "name": "stones_000_stone_01",
+    "source": "sources\\stones\\stone_pack_01.blend",
+    "object": "stone_01"
+  },
+  {
+    "name": "stones_001_stone_02",
+    "source": "sources\\stones\\stone_pack_01.blend",
+    "object": "stone_02"
+  },
+  {
+    "name": "stones_002_stone_03",
+    "source": "sources\\stones\\stone_pack_01.blend",
+    "object": "stone_03"
+  },
+  {
+    "name": "stones_003_stone_04",
+    "source": "sources\\stones\\stone_pack_01.blend",
+    "object": "stone_04"
+  },
+  {
+    "name": "stones_004_ground_plane",
+    "source": "sources\\stones\\stone_pack_01.blend",
+    "object": "ground_plane"
+  }
+]

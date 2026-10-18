@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Battlefield.cs" id="1"]
+
+[sub_resource type="Environment" id="Environment"]
+background_mode = 1
+background_color = Color(0.09,0.11,0.14,1)
+ambient_light_source = 3
+ambient_light_color = Color(0.8,0.86,1,1)
+ambient_light_energy = 0.65
+tonemap_mode = 2
+
+[sub_resource type="PlaneMesh" id="GroundMesh"]
+size = Vector2(24,24)
+
+[node name="Battlefield" type="Node3D"]
+script = ExtResource("1")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-50,-30,0)
+light_energy = 1.5
+shadow_enabled = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+position = Vector3(0,18,24)
+rotation_degrees = Vector3(-36.87,0,0)
+projection = 1
+size = 16.0
+current = true
+
+[node name="LevelProps" type="Node3D" parent="."]
+
+[node name="GroundPreview" type="MeshInstance3D" parent="."]
+mesh = SubResource("GroundMesh")
+editor_description = "Editor ground guide. Runtime creates the clickable grid here. Drag environment GLBs into LevelProps to dress the scene."

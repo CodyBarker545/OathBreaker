@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Oathbreakers Game",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "Build Oathbreakers",
+      "program": "D:/Downloads/Godot_v4.7.2-stable_mono_win64/Godot_v4.7.2-stable_mono_win64/Godot_v4.7.2-stable_mono_win64.exe",
+      "args": ["--path", "${workspaceFolder}"],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "Oathbreakers Checks",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "Build Oathbreakers",
+      "program": "D:/Downloads/Godot_v4.7.2-stable_mono_win64/Godot_v4.7.2-stable_mono_win64/Godot_v4.7.2-stable_mono_win64.exe",
+      "args": ["--headless", "--path", "${workspaceFolder}", "--", "--smoke-test"],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    }
+  ]
+}

@@ -1,8 +1,20 @@
-.venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.vscode/
-tools/blender-portable/
-*.blend1
+# Godot / Visual Studio / .NET generated files
+.godot/
+.vs/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 *.log
+*.blend1
+
+.nuget-local/*
+!.nuget-local/.gitkeep
+!.nuget-local/.gdignore
+.dotnet-home/

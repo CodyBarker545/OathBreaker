@@ -1,2 +1,4 @@
 ursina
+panda3d-gltf
+panda3d-simplepbr
 pytest

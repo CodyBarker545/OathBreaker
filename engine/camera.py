@@ -8,9 +8,15 @@ class BattlefieldCamera(Entity):
         self.move_speed = move_speed
 
         camera.orthographic = True
-        camera.fov = 23
+        camera.fov = 12
         camera.position = (18, 22, -18)
         camera.look_at((0, 0, 0))
+
+    def input(self, key):
+        if key == 'scroll up':
+            camera.fov = max(6, camera.fov - 1.5)
+        elif key == 'scroll down':
+            camera.fov = min(40, camera.fov + 1.5)
 
     def update(self):
         # Read keyboard input.

@@ -3,3 +3,6 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .vscode/
+tools/blender-portable/
+*.blend1
+*.log

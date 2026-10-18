@@ -20,12 +20,25 @@ class TileView(Entity):
         self.grid_position = (grid_x, grid_z)
         self.base_color = base_color
         self.on_select = on_select
+        self.path_state = None
+
+    def set_path_state(self, state):
+        self.path_state = state
+        self.refresh_color()
+
+    def refresh_color(self):
+        if self.path_state == 'destination':
+            self.color = color.gold
+        elif self.path_state == 'path':
+            self.color = color.rgba(.20, .60, .65, 1)
+        else:
+            self.color = self.base_color
 
     def on_mouse_enter(self):
         self.color = color.azure
 
     def on_mouse_exit(self):
-        self.color = self.base_color
+        self.refresh_color()
 
     def input(self, key):
         if self.hovered and key == "left mouse down":

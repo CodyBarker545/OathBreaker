@@ -1,0 +1,17 @@
+{
+  "Arm_Motion_Test": {
+    "frames": 47,
+    "fps": 30.0,
+    "pose_check": "passed"
+  },
+  "Idle": {
+    "frames": 62,
+    "fps": 30.0,
+    "pose_check": "passed"
+  },
+  "Walk": {
+    "frames": 32,
+    "fps": 30.0,
+    "pose_check": "passed"
+  }
+}

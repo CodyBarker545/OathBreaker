@@ -43,9 +43,9 @@ Open `Oathbreakers.sln`, select **Debug → Oathbreakers Game**, then press **F5
 
 Import **D:\SoftwareEng\Game\project.godot** in Godot .NET. Remove stale `godot/` or `oath-breaker/` entries from the Project Manager list if they remain there; those are the old locations.
 
-Open `Scenes/Battlefield.tscn`. Drag models from `Assets/Levels/` onto `LevelProps`, position and scale them, then save with Ctrl+S. Press F5 to play. Godot is the level editor; VS Code and Visual Studio edit/debug C#.
+Open `Scenes/StartingLevel.tscn` to sculpt its Terrain3D terrain or edit its trees, rocks, bridges and central shrine. Add models under `LevelProps`, position and scale them, then save with Ctrl+S. Press F5 to play the main battlefield scene. Godot is the level editor; VS Code and Visual Studio edit/debug C#.
 
-Props currently affect appearance only. Tactical terrain blocking and elevation require gameplay integration. The Terrain3D add-on and its demo remain preserved under `References/Terrain3D`; they are not enabled in this game. See [level editing](Docs/LEVEL_EDITING.md).
+The starting level is Oathstone Crossing: a compact 16x16 map, opposing spawns, raised ground, a creek, two bridges and a claimable central Oathstone. Movement follows Terrain3D heights and respects water, obstacles and bridge decks. Terrain3D is enabled under `addons/terrain_3d`; the original reference remains preserved under `References/Terrain3D`. See [level editing](Docs/LEVEL_EDITING.md) and [the starting-level guide](Docs/STARTING_LEVEL.md).
 
 ## Assets
 
@@ -66,6 +66,6 @@ dotnet build Oathbreakers.sln
 & 'D:\Downloads\Godot_v4.7.2-stable_mono_win64\Godot_v4.7.2-stable_mono_win64\Godot_v4.7.2-stable_mono_win64_console.exe' --headless --path . -- --smoke-test
 ```
 
-Checks cover character imports, idle/walk clips, colliders, independent movement, occupancy and pathfinding. A failure exits with code 1.
+Checks cover balanced objective routes, bridges, terrain/bridge picking, blocked water and trees, imported animations, occupancy, terrain-following movement and objective claim/contest. A failure exits with code 1.
 
-Click a character, then an empty tile to move. WASD pans, the wheel zooms and right-click deselects. Combat, turns, fog, scoring and online play remain future work. See [the game overview](Docs/GAME.md).
+Click a character, then an empty tile to move. WASD pans, the wheel zooms, G toggles the grid, Home recenters and right-click deselects. Combat, turns, fog, scoring and online play remain future work. See [the game overview](Docs/GAME.md).

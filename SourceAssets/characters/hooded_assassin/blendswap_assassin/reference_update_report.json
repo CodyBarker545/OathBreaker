@@ -1,0 +1,19 @@
+{
+  "mesh_objects": 557,
+  "triangles": 325030,
+  "bones": 96,
+  "hood_retained": false,
+  "mask_retained": true,
+  "weapons_included": false,
+  "continuous_torso": true,
+  "hand_digits": 5,
+  "grip_properties": [
+    "HandGrip.L",
+    "HandGrip.R"
+  ],
+  "mask_style": "dark fitted woven cloth",
+  "hood_style": "close pointed charcoal cowl",
+  "hair_style": "full tousled golden blond with asymmetric fringe",
+  "outfit_reference": "layered_outfit_reference.png",
+  "hair_reference": "tousled_blond_hair_reference.png"
+}

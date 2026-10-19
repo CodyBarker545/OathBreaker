@@ -6,7 +6,7 @@ This is the active game project. Open **Oathbreakers.sln** in Visual Studio for 
 
 ## Game
 
-The C# prototype contains a 24x24 grid, Assassin and Ashveil, imported materials and animations, click-to-move, occupied-tile blocking and a tactical camera angled down about 37 degrees. Click a character and then an empty tile. WASD pans, the wheel zooms and right-click deselects.
+The C# prototype contains a 16x16 Terrain3D battlefield with opposing spawns, hills, a creek, two bridges and a central capture objective, Assassin and Ashveil, imported materials and animations, click-to-move, occupied-tile blocking and a tactical camera angled down about 37 degrees. Click a character and then an empty tile. WASD pans, the wheel zooms and right-click deselects.
 
 ## Files
 
@@ -22,7 +22,7 @@ Editable Blender sources and original licences live in `SourceAssets/` at the pr
 
 ## Levels
 
-Open `Scenes/Battlefield.tscn` in Godot. `GroundPreview` is an editor guide; C# replaces it with clickable tiles during play. Drag environment GLBs into `LevelProps`, position and scale them, then save. Props currently affect appearance only; grid blocking and elevations require explicit gameplay data.
+Open `Scenes/StartingLevel.tscn` in Godot to sculpt terrain and edit its props, bridges, spawns and objective. `Scenes/Battlefield.tscn` loads it and provides the camera, lights and gameplay. Movement reads Terrain3D heights and blocks water and authored obstacles. See [the starting-level guide](STARTING_LEVEL.md).
 
 ## Build and checks
 

@@ -43,7 +43,7 @@ The console executable is useful for terminal logs; the Visual Studio debugging 
 
 ## Edit levels
 
-Use Godot's editor to edit `Scenes/Battlefield.tscn`, not Visual Studio's debugger. Drag models from `Assets/Levels/` onto `LevelProps`, transform them and save. Visual Studio is for C# code and debugging; Godot is for scenes, imports, lighting and level layout. Props currently dress the scene visually; collision, tactical blocking and elevation need explicit map-rule integration.
+Use Godot's editor to edit `Scenes/Battlefield.tscn`, not Visual Studio's debugger. Open `Scenes/StartingLevel.tscn`, select Terrain3D to sculpt, or place models under LevelProps. Save the scene and terrain before running. Visual Studio is for C# code and debugging; Godot is for scenes, imports, lighting and level layout. The new terrain-aware map rules read elevations and bridge decks; props with blocks_movement metadata obstruct routes. See STARTING_LEVEL.md for editing details.
 
 In Godot, choose **Editor → Editor Settings → Dotnet → Editor → External Editor → Visual Studio** if you want C# scripts to open there when double-clicked.
 

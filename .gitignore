@@ -18,3 +18,8 @@
 !.nuget-local/.gitkeep
 !.nuget-local/.gdignore
 .dotnet-home/
+
+# Python caches and Visual Studio migration reports
+__pycache__/
+*.py[cod]
+UpgradeLog.htm

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "character": "broken_oath_knight",
+  "base": "Eliber CC0 fitted mesh",
+  "meshes": 231,
+  "triangles": 83918,
+  "bones": 96,
+  "animations": [
+    "Arm_Motion_Test",
+    "Idle",
+    "Walk"
+  ],
+  "embedded_images": 8,
+  "bounds_min": [
+    -0.8506269454956055,
+    -0.49010327458381653,
+    0.008159974589943886
+  ],
+  "bounds_max": [
+    0.5966292023658752,
+    0.3999606668949127,
+    2.0583596229553223
+  ],
+  "studio_excluded": true,
+  "weapons_excluded": true
+}

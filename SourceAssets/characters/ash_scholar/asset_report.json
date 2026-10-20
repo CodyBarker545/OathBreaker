@@ -1,0 +1,14 @@
+{
+  "character": "Ash Scholar",
+  "base": "Eliber CC0 fitted mesh",
+  "rig_bones": 96,
+  "meshes": 158,
+  "actions": [
+    "Arm_Motion_Test",
+    "Idle",
+    "Walk"
+  ],
+  "source": "ash_scholar.blend",
+  "export": "ash_scholar.glb",
+  "reference": "reference.png"
+}

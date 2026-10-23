@@ -1,4 +1,4 @@
-namespace Oathbreakers.Core.Characters.Definitions;
+namespace PawnsOfDivinity.Core.Characters.Definitions;
 
 public static class KomodoWarrior
 {

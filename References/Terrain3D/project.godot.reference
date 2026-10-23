@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="OathBreaker"
+config/name="PawnsOfDivinity"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
@@ -21,7 +21,7 @@ window/stretch/aspect="expand"
 
 [dotnet]
 
-project/assembly_name="OathBreaker"
+project/assembly_name="PawnsOfDivinity"
 
 [physics]
 

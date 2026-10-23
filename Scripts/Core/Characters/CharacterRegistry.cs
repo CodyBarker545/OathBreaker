@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Oathbreakers.Core.Characters.Definitions;
+using PawnsOfDivinity.Core.Characters.Definitions;
 
-namespace Oathbreakers.Core.Characters;
+namespace PawnsOfDivinity.Core.Characters;
 
 public static class CharacterRegistry
 {

@@ -1,6 +1,6 @@
-# Oathbreakers Godot and C sharp game
+# PawnsOfDivinity Godot and C sharp game
 
-This is the active game project. Open **Oathbreakers.sln** in Visual Studio for code and debugging, or import **project.godot** in the Godot 4.7.2 .NET editor for scene and level editing.
+This is the active game project. Open **PawnsOfDivinity.sln** in Visual Studio for code and debugging, or import **project.godot** in the Godot 4.7.2 .NET editor for scene and level editing.
 
 [Visual Studio setup and controls](VISUAL_STUDIO.md)
 
@@ -29,7 +29,7 @@ Open `Scenes/StartingLevel.tscn` in Godot to sculpt terrain and edit its props, 
 Use the Godot .NET editor and a .NET 8 SDK. `global.json` selects .NET 8, and the project uses Godot.NET.Sdk 4.7.2. `NuGet.Config` supports official NuGet and the ignored local package directory used for Godot-bundled packages.
 
 ```powershell
-dotnet build Oathbreakers.sln
+dotnet build PawnsOfDivinity.sln
 ```
 
-In Visual Studio, choose **Oathbreakers Checks** and press F5 to run the headless checks. Choose **Oathbreakers Game** to run the game. The earlier Python/Ursina implementation has been removed.
+In Visual Studio, choose **PawnsOfDivinity Checks** and press F5 to run the headless checks. Choose **PawnsOfDivinity Game** to run the game. The earlier Python/Ursina implementation has been removed.

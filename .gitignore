@@ -23,3 +23,43 @@
 __pycache__/
 *.py[cod]
 UpgradeLog.htm
+
+# Game assets - stored locally, not on GitHub
+/SourceAssets/
+/Assets/
+/artifacts/
+
+# Blender and 3D models
+*.blend
+*.blend1
+*.blend2
+*.fbx
+*.glb
+*.gltf
+*.obj
+*.stl
+
+# Large asset archives
+*.zip
+*.7z
+*.rar
+
+# Generated caches
+.godot/
+**/bin/
+**/obj/
+__pycache__/
+*.pyc
+
+
+# Keep small Godot resources and shaders in Git
+!/Assets/
+!/Assets/**/
+!/Assets/**/*.tres
+!/Assets/**/*.tscn
+!/Assets/**/*.gdshader
+!/Assets/**/*.gdshader.uid
+
+# Exclude bulky level terrain data
+/Assets/Levels/**/TerrainData/
+

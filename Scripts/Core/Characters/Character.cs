@@ -1,6 +1,6 @@
 using System;
 
-namespace Oathbreakers.Core.Characters;
+namespace PawnsOfDivinity.Core.Characters;
 
 public class Character
 {

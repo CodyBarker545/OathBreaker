@@ -1,11 +1,11 @@
-# Work on Oathbreakers in Visual Studio
+# Work on PawnsOfDivinity in Visual Studio
 
 Use Visual Studio with the **.NET desktop development** workload and the Godot **.NET** editor. This project targets .NET 8 and Godot 4.7.2; `global.json` selects an installed .NET 8 SDK.
 
 ## Open and inspect the code
 
-1. Open `Oathbreakers.sln` from the project root using **File → Open → Project/Solution**.
-2. In Solution Explorer, expand **Oathbreakers → Scripts**.
+1. Open `PawnsOfDivinity.sln` from the project root using **File → Open → Project/Solution**.
+2. In Solution Explorer, expand **PawnsOfDivinity → Scripts**.
 3. Open `Battlefield.cs` for grid creation, click input, camera controls, selection and the smoke checks.
 4. Open `TacticalUnit.cs` for character animation and movement.
 5. Open `GridPathfinder.cs` for the grid route calculation.
@@ -14,9 +14,9 @@ Press **Ctrl+Shift+B** to build. Open **View → Error List** for compiler error
 
 ## Run and debug the game
 
-1. Right-click **Oathbreakers** in Solution Explorer and choose **Set as Startup Project** if needed.
+1. Right-click **PawnsOfDivinity** in Solution Explorer and choose **Set as Startup Project** if needed.
 2. Set the configuration to **Debug**.
-3. In the launch-profile dropdown beside the green Start button, choose **Oathbreakers Game**.
+3. In the launch-profile dropdown beside the green Start button, choose **PawnsOfDivinity Game**.
 4. Press **F5** to build and run under the debugger. **Ctrl+F5** runs without debugging.
 5. Click a character and then an empty tile. WASD moves the camera, the mouse wheel zooms, and right-click deselects.
 
@@ -30,12 +30,12 @@ To inspect a running method, click in the left gutter or press **F9** to set a b
 
 ## Run the checks
 
-Choose the **Oathbreakers Checks** launch profile and press F5. This starts Godot headlessly, runs the C# checks and exits. The checks verify imported models and idle/walk clips, character colliders, selection, independent movement, occupied-tile rejection and pathfinding. A failure exits with code 1; success prints `GODOT C# SMOKE TEST PASSED`.
+Choose the **PawnsOfDivinity Checks** launch profile and press F5. This starts Godot headlessly, runs the C# checks and exits. The checks verify imported models and idle/walk clips, character colliders, selection, independent movement, occupied-tile rejection and pathfinding. A failure exits with code 1; success prints `GODOT C# SMOKE TEST PASSED`.
 
 You can also run them in **View → Terminal**, starting in the project root:
 
 ```powershell
-dotnet build Oathbreakers.sln
+dotnet build PawnsOfDivinity.sln
 & 'D:\Downloads\Godot_v4.7.2-stable_mono_win64\Godot_v4.7.2-stable_mono_win64\Godot_v4.7.2-stable_mono_win64_console.exe' --headless --path . -- --smoke-test
 ```
 

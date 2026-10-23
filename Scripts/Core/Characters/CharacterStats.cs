@@ -1,4 +1,4 @@
-namespace Oathbreakers.Core.Characters;
+namespace PawnsOfDivinity.Core.Characters;
 
 // Starting values for a character.
 // A record gives these values a compact, immutable representation.

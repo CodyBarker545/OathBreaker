@@ -39,6 +39,6 @@ The pre-change user scene and project settings were preserved under `SourceAsset
 
 F5 runs the main game. Click a character, then a clear tile. WASD pans, the wheel zooms, G toggles the tactical grid, Home recenters, and right-click deselects.
 
-`dotnet build Oathbreakers.sln` checks compilation. The **Oathbreakers Checks** profile runs gameplay checks covering equal objective routes, both flank bridges, water/prop blocking, terrain and bridge picking, model animations, unit occupancy, height-following movement and objective claim/contest.
+`dotnet build PawnsOfDivinity.sln` checks compilation. The **PawnsOfDivinity Checks** profile runs gameplay checks covering equal objective routes, both flank bridges, water/prop blocking, terrain and bridge picking, model animations, unit occupancy, height-following movement and objective claim/contest.
 
 For an optional baseline rebuild, run Godot with `--headless --path . --script tools/BuildStartingLevel.gd`. **This overwrites StartingLevel.tscn and its generated terrain resources**, so preserve manual level edits first. The generator is not needed to run or edit the saved level.

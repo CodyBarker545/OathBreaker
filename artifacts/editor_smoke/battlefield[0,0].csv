@@ -1,4 +1,0 @@
-class;parent;name;scale;model;shader;texture;color;collider_type;position;collider
-Entity;;'Ground';Vec3(24, 0.15, 24);'cube';'unlit_shader';'';'#5a645aff';'None';;
-Entity;;'foliage_006_tree_pine_joined';;'foliage_006_tree_pine_joined';'lit_with_shadows_shader';'';'#5f874cff';'box';Vec3(-2, 0, 0);'box'
-Entity;;'stones_000_stone_01';;'stones_000_stone_01';'lit_with_shadows_shader';'';'#918c82ff';'box';Vec3(1, 0, 0);'box'

@@ -1,6 +1,6 @@
-using Oathbreakers.Core.Characters;
+using PawnsOfDivinity.Core.Characters;
 
-namespace Oathbreakers.Core.Characters.Definitions;
+namespace PawnsOfDivinity.Core.Characters.Definitions;
 
 public static class ShadowNinja
 {

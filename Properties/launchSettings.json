@@ -1,13 +1,13 @@
 {
   "profiles": {
-    "Oathbreakers Game": {
+    "PawnsOfDivinity Game": {
       "commandName": "Executable",
       "executablePath": "D:\\Downloads\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64.exe",
       "commandLineArgs": "--path .",
       "workingDirectory": ".",
       "nativeDebugging": true
     },
-    "Oathbreakers Checks": {
+    "PawnsOfDivinity Checks": {
       "commandName": "Executable",
       "executablePath": "D:\\Downloads\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64.exe",
       "commandLineArgs": "--headless --path . -- --smoke-test",

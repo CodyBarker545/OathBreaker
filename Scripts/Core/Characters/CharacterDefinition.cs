@@ -1,4 +1,4 @@
-namespace Oathbreakers.Core.Characters;
+namespace PawnsOfDivinity.Core.Characters;
 
 public record CharacterDefinition(
     string Id,

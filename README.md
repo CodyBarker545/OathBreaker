@@ -1,14 +1,14 @@
-# Oathbreakers
+# PawnsOfDivinity
 
-Godot 4.7.2 .NET / C# tactical-game prototype. **This repository root is the game project.** Open this folder in VS Code, `Oathbreakers.sln` in Visual Studio, or `project.godot` in Godot .NET. There is one active Godot project and no Python dependency.
+Godot 4.7.2 .NET / C# tactical-game prototype. **This repository root is the game project.** Open this folder in VS Code, `PawnsOfDivinity.sln` in Visual Studio, or `project.godot` in Godot .NET. There is one active Godot project and no Python dependency.
 
 ## Project layout
 
 ```text
 Game/
   project.godot             Godot project; main scene is Battlefield
-  Oathbreakers.sln          Visual Studio solution
-  Oathbreakers.csproj       C# game assembly
+  PawnsOfDivinity.sln          Visual Studio solution
+  PawnsOfDivinity.csproj       C# game assembly
   Scripts/                 Gameplay, units, camera and pathfinding
   Scenes/                  Godot scenes and level layouts
   Assets/
@@ -30,14 +30,14 @@ Game/
 1. Open **D:\SoftwareEng\Game** using File → Open Folder.
 2. Install the recommended Microsoft **C#** extension.
 3. Open files under `Scripts/` and press **Ctrl+Shift+B** to build. Compiler diagnostics appear in Problems.
-4. Choose **Oathbreakers Game** in Run and Debug and press **F5**. Set breakpoints with **F9**, step over with **F10**, and stop with **Shift+F5**.
-5. Choose **Oathbreakers Checks** to build and run the headless gameplay checks.
+4. Choose **PawnsOfDivinity Game** in Run and Debug and press **F5**. Set breakpoints with **F9**, step over with **F10**, and stop with **Shift+F5**.
+5. Choose **PawnsOfDivinity Checks** to build and run the headless gameplay checks.
 
 The executable path in `.vscode/launch.json` points to Godot .NET installed on this computer. Update it if Godot moves. See [the VS Code guide](Docs/VS_CODE.md).
 
 ## Work in Visual Studio
 
-Open `Oathbreakers.sln`, select **Debug → Oathbreakers Game**, then press **F5**. **Ctrl+Shift+B** builds. See [the Visual Studio guide](Docs/VISUAL_STUDIO.md).
+Open `PawnsOfDivinity.sln`, select **Debug → PawnsOfDivinity Game**, then press **F5**. **Ctrl+Shift+B** builds. See [the Visual Studio guide](Docs/VISUAL_STUDIO.md).
 
 ## Build levels
 
@@ -62,7 +62,7 @@ This refreshes two character models and the environment GLBs in `Assets/`. Origi
 From this root folder:
 
 ```powershell
-dotnet build Oathbreakers.sln
+dotnet build PawnsOfDivinity.sln
 & 'D:\Downloads\Godot_v4.7.2-stable_mono_win64\Godot_v4.7.2-stable_mono_win64\Godot_v4.7.2-stable_mono_win64_console.exe' --headless --path . -- --smoke-test
 ```
 
